@@ -6,6 +6,8 @@
 body{
   background-color: aliceblue;  
   font-family: monospace;
+  
+  
 }
 .container.app{
   display: flex;
@@ -13,6 +15,8 @@ body{
   flex-direction: column;
   height: 500px;
   align-items: center;
+  
+  
   
 }
 input{
@@ -22,7 +26,7 @@ input{
   background-color: white;
   border: none;
   padding-left: 15px;
-  margin-top: 5px;
+  margin-top: 15px;
 }
 
 select{
@@ -40,5 +44,24 @@ width: 300;
 height: 30px;
 margin-left: 45px;
 margin-top: 4px;
+
+}
+
+.list-iitem{
+
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  width: 500px;
+  height: 50px;
+  margin-top:5px ;
+
+}
+
+.list-item h6{
+
+ padding-top: 25px;
+ padding-left: 12px;
+
 
 }
